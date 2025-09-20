@@ -23,9 +23,9 @@ export default function HomePage() {
               <div className="space-y-8">
                 <MarketOverview />
                 <div className="grid lg:grid-cols-2 gap-8">
-                  <NewsSection compact />
+                  <NewsSection  />
                   <div className="space-y-6">
-                    <PostGenerator compact />
+                    <PostGenerator  />
                   </div>
                 </div>
               </div>
